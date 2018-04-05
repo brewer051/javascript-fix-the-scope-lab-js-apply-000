@@ -5,17 +5,18 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  var animal = 'cat';
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   return animal
 }
 
+ const two = 2
+
 function add2(n) {
-  // Feel free to move things around!
-  const two = 2
   return n + two
+
+  // Feel free to move things around!
 }
 
 var funkyFunction = function() {
@@ -24,7 +25,7 @@ var funkyFunction = function() {
   }
 }
 
-// We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
-// To pass this final test, you only need to modify the code below this line.
+// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
+// NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()
-thefunk();
+theFunk()
